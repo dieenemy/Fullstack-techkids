@@ -1,14 +1,16 @@
 'use strict'
 
 function sort(input) {
-  let sortedlist = [];
-  while (input.length !== 0){
-    let min = Math.min.apply(null,input);
-    sorted_list.push(min)
-    let index = input.indexOf(min);
-    input.splice(index,1);
+  for(var i = 0; i < input.length; i++) {
+    for(var j = i+1; j < input.length; j++) {
+      if(input[i] > input[j] ) {
+        var temp = input[i];
+        input[i] = input[j];
+        input[j] = temp;
+      }
+    } 
   }
-  return sortedlist;
+  return input;
 }
 
 module.exports = sort
