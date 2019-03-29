@@ -12,13 +12,12 @@
 
 
 function search(input, target) {
-  let indext = -1;
-  for(let i = 0; i <= input.length - 1; i++){
-    if (input[i] === target){
-      indexOfTarget = i;
-    }
-  }
-return  indext;
+  for(var i=0; i<input.length; i++){
+    if(input[i] === target){
+       return i;
+     }
+ }
+ return -1;
 }
 
 
