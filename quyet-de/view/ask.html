@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hay hoi cong dong mot cau hoi dung/sai hoac co/khong</h1>
+    <form action="/addquestion" method="post">
+        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+        <span id="remain">con 200/200 ky tu</span>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <script>
+        document.querySelector("textarea").maxLength = "200";
+        document.getElementById("question").addEventListener("input", function(){
+            const remainChar = 200 -  document.getElementById("question").value.length;
+            document.getElementById("remain").innerText = `con ${remainChar}/200 ky tu`
+        })
+    </script>
+</body>
+</html>
