@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outside {
+    padding-top: 20px;
+}
+
+i.fas {
+    color: gray;
+}
+
+.outside p {
+    font-size: 9px;
+    padding: 0 15px;
+}
+
+.col-sm-3.outside {
+    margin: 30px 0;
+}
+
+.anhxam {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.ten h1 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.ten h2 {
+    font-size: 14px;
+    color: #adaaaa;
+}
+
+.trang {
+    background: white;
+}
+
+.anh {
+    background: gray;
+}
+
+.outside img {
+    width: 100%;
+}
+
+.menutop {
+    margin: 20px 0;
+}
+
+.col-sm-3.push-sm-2.noname {
+    position: relative;
+}
+
+
+
+input.form-control {
+    width: 100%;
+    position: relative;
+    float: right;
+    border-radius: 0;
+}
+
+
+.noname input.form-control {
+    width: 69%;
+}
+
+
+
+i.fas.fa-search {
+    float: right;
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    color: gray;
+}
+
+.logo h1 {
+    float: right;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #3ac2ef;
+}
+
+.logo img {
+    width: 172px;
+    height: 44px;
+}
+
+@media (min-width:768px) and (max-width:992px){
+    *{}
+
+.outside p {
+    font-size: 7px;
+}
+
+.anhxam {
+    width: 41px;
+    height: 41px;
+}
+
+.ten h1 {
+    font-size: 14px;
+}
+
+.ten h2 {
+    font-size: 6px;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: -9px;
+    height: 47px;
+}
+
+.logo h1 {
+    font-size: 22px;
+}
+
+i.fas.fa-search {
+    top: 28%;
+    font-size: 12px;
+    right: 13%;
+    color: gray;
+}
+
+input.form-control {
+    font-size: 12px;
+}
+
+
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    *{}
+
+.ten h2 {
+    font-size: 10px;
+}
+
+.logo h1 {
+    font-size: 31px;
+}
+
+.logo img {
+    width: 130px;
+}
+
+}
+
+@media (min-width:576px) and (max-width:768px){
+    *{}
+
+.anhxam {width: 40px;height: 40px;}
+
+.ten h2 {
+    font-size: 6px;
+}
+
+.ten h1 {
+    font-size: 16px;
+}
+
+i.fas {
+    font-size: 11px;
+}
+
+.logo img {
+    width: 71px;
+    margin-top: -7px;
+    height: 30px;
+}
+
+.logo h1 {
+    font-size: 16px;
+}
+
+i.fas.fa-search {
+    font-size: 11px;
+    top: 28%;
+    right: 16%;
+}
+
+input.form-control {
+    font-size: 7px;
+}
+}
+
+@media  (max-width:576px){
+    *{}
+
+.logo img {
+    width: 147px;
+}
+
+.ten h1 {
+    margin-top: 11px;
+    font-size: 14px;
+}
+
+.ten h2 {
+    font-size: 5px;
+}
+
+.anhxam {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-size: 7px !important;
+}
+
+.col-xs-3.push-xs-2.noname {
+    margin-top: 7px;
+}
+
+.form-group {
+    margin-top: 7px;
+}
+
+
+
+i.fas {
+    font-size: 10px;
+}
+
+i.fas.fa-search {
+    top: 19%;
+    right: 21px;
+}
+
+input.form-control {
+    font-size: 9px;
+}
+
+.logo h1 {
+    font-size: 29px;
+}
+}
